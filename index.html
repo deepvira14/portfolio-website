@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Vira</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b29c599566.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <!-- <li> <a href="#header">Home</a> -->
+                    <li> <a href="#about">About</a>
+                    <li> <a href="#services">Services</a>
+                    <li> <a href="#portfolio">Portfolio</a>
+                    <li> <a href="#contact">Contact</a>
+                    <i class="fa-sharp fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi! I am Deep Vira</h1>
+                <p>Full Stack Developer</p>
+               
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/deep.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum tempora asperiores adipisci. Rem cupiditate ullam at dolores hic id iure, nisi repudiandae deleniti ex, delectus obcaecati saepe voluptatibus culpa temporibus?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web APP</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>App development</span><br>Building native application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug2022 - Dec 2022 </span><br>Graduate Teachinfg Assistant</li>
+                            <li><span>Aug2022 - Dec 2022 </span><br>Graduate Teachinfg Assistant</li>
+                            <li><span>Aug2022 - Dec 2022 </span><br>Graduate Teachinfg Assistant</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Masters in Computer and Informaion Science</li>
+                            <li><span>2023</span><br>Masters in Computer and Informaion Science</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam voluptatibus laudantium fuga sint velit veritatis quaerat eligendi molestiae, rerum quisquam ullam molestias minima, odio deleniti at expedita asperiores fugit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam voluptatibus laudantium fuga sint velit veritatis quaerat eligendi molestiae, rerum quisquam ullam molestias minima, odio deleniti at expedita asperiores fugit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aperiam voluptatibus laudantium fuga sint velit veritatis quaerat eligendi molestiae, rerum quisquam ullam molestias minima, odio deleniti at expedita asperiores fugit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">   
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum,anditiis incidunt sit sapiente suscipit, unde consequuntur iste sed optio inventore similique, et aliquam numquam saepe. Odio tempore molestias soluta?</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">   
+                        <h3>Ecommerec  App</h3>
+                        <p>Lorem ipsum,anditiis incidunt sit sapiente suscipit, unde consequuntur iste sed optio inventore similique, et aliquam numquam saepe. Odio tempore molestias soluta?</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">   
+                        <h3>Online portal App</h3>
+                        <p>Lorem ipsum,anditiis incidunt sit sapiente suscipit, unde consequuntur iste sed optio inventore similique, et aliquam numquam saepe. Odio tempore molestias soluta?</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------------CONTACT---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone-volume"></i> +199999999</p>
+                    <div class="social-icons">
+                        <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="youremail@gmail.com" required>
+                        <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Deep Vira.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu () {
+            sidemeu.style.right = "0";
+        }
+        function closemenu () {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
